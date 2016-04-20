@@ -8,7 +8,8 @@
 
 #### Stable Distribution
 
-This is iTerm2 version 2.0.0; the first full release of iTerm2.
+This is iTerm2 version 2.1.4; the recommended build for most users. 
+It is updated to work well with El Capitan. 
 
 ```puppet
 include iterm2::stable
