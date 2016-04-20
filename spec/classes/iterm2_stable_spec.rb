@@ -3,12 +3,12 @@ require 'spec_helper'
 describe 'iterm2::stable' do
   let(:params) do
     {
-      :version => '2_1_1'
+      :version => '2_1_4'
     }
   end
 
   it do
-    version = '2_1_1'
+    version = '2_1_4'
     should contain_package('iTerm').with({
       :ensure   => 'present',
       :flavor   => 'zip',
